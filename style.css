@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+#outfit-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 15px;
+}
+
+.outfit img {
+    max-width: 100px;
+    max-height: 100px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+#randomize-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#randomize-button:hover {
+    background-color: #218838;
+}

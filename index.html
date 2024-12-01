@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Generator Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Random Outfit Picker</h1>
+    <div id="outfit-display">
+        <div class="outfit">
+            <!-- Set initial placeholder image or blank -->
+            <img src="images/shirt1.jpg" alt="Shirt" id="shirt-image">
+            <img src="images/pants1.jpg" alt="Pants" id="pants-image">
+            <img src="images/shoes1.jpg" alt="Shoes" id="shoes-image">
+            <img src="images/bag1.jpg" alt="Bag" id="bag-image">
+        </div>
+    </div>
+    <button id="randomize-button" onclick="randomizeOutfit()">Randomize Outfit</button>
+    
+    <!-- New Button to Reveal Explanation -->
+    <button id="show-explanation-button" onclick="toggleExplanation()">Show Explanation</button>
+    
+    <!-- Paragraph for Explanation (Initially Hidden) -->
+    <p id="explanation" style="display:none;">
+        This is where you can add your explanation about the outfit generator or any details you'd like to share.
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
